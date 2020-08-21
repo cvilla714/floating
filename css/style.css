@@ -1,11 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  height: 150vh;
 }
 .top-bar {
   position: fixed;
   width: 100%;
   border-bottom: 0.25px solid #e2e2e2;
+  height: 10%;
 }
 
 .left-title {
@@ -71,5 +73,88 @@ body {
   text-decoration: none;
 }
 
-.media {
+.main-header {
+  width: 100%;
+  margin-top: 5%;
+  /* text-align: center; */
 }
+.description {
+  width: 600px;
+  height: 96px;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.picture-container {
+  width: 100%;
+}
+
+.main-image img {
+  width: 100%;
+}
+.main-image {
+  margin: 1.6rem 18.47% 2.68rem 18.47%;
+}
+.bottom-text {
+  width: 75%;
+  font-size: 0.93rem;
+  line-height: 1.25rem;
+}
+
+.date {
+  width: 32%;
+  margin: 0 auto;
+}
+.Refence {
+  width: 100%;
+  margin: 0 auto;
+}
+.media {
+  display: flex;
+  justify-content: space-between;
+}
+.round {
+  border: 1px #eee solid;
+  border-radius: 100%;
+  /* display: inline-block; */
+  height: 15px;
+  vertical-align: middle;
+  width: 15px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+.round:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.media-icons a {
+  text-decoration: none;
+}
+.containers {
+  margin: 0 18.47% 2.68rem 18.47%;
+}
+
+.display {
+  display: flex;
+}
+
+.whatever {
+  width: 31%;
+  margin-left: 5.6rem;
+}
+
+.testing {
+  margin-left: 17.25rem;
+}
+
+/* .one { */
+/* width: 50%; */
+/* } */
+/*  */
