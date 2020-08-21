@@ -138,21 +138,34 @@ body {
   text-decoration: none;
 }
 .containers {
-  margin: 0 18.47% 2.68rem 18.47%;
-}
-
-.display {
+  /* margin: 0 18.47% 2.68rem 18.47%; */
+  width: 100%;
   display: flex;
+  justify-content: center;
+}
+.subcontainer {
+  width: 63%;
+  display: grid;
+  grid-template-columns: 25% 50% 12.5% 12.5%
+  /* grid-template-columns: repeat(4, 1fr); */
 }
 
-.whatever {
-  width: 31%;
-  margin-left: 5.6rem;
-}
-
-.testing {
-  margin-left: 17.25rem;
-}
+.grid-item2 {
+  
+  
+/* .display { */
+/* display: flex; */
+/* } */
+/*  */
+/* .whatever { */
+/* width: 31%; */
+/* margin-left: 5.6rem; */
+/* } */
+/*  */
+/* .testing{ */
+/* margin-left: 18.25rem; */
+/* } */
+/* } */
 
 /* .one { */
 /* width: 50%; */
