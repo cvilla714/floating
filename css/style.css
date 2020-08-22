@@ -109,7 +109,7 @@ body {
 }
 .Refence {
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
 }
 .media {
   display: flex;
@@ -144,30 +144,14 @@ body {
   justify-content: center;
 }
 .subcontainer {
-  width: 63%;
+  width: 63.1%;
   display: grid;
-  grid-template-columns: 25% 50% 12.5% 12.5%
+  grid-template-columns: 24.5% 50.5% 7.5% 17.5%;
   /* grid-template-columns: repeat(4, 1fr); */
 }
 
-.grid-item2 {
-  
-  
-/* .display { */
-/* display: flex; */
-/* } */
-/*  */
-/* .whatever { */
-/* width: 31%; */
-/* margin-left: 5.6rem; */
-/* } */
-/*  */
-/* .testing{ */
-/* margin-left: 18.25rem; */
-/* } */
-/* } */
-
-/* .one { */
-/* width: 50%; */
-/* } */
-/*  */
+.one {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin: 0 0 1rem 0;
+}
