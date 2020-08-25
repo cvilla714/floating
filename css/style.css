@@ -413,3 +413,48 @@ body {
 .item h3:hover {
   color: #666666;
 }
+
+.foot-container {
+  width: 63%;
+  margin: 0 auto;
+}
+
+.foot-header,
+.foot-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.foot-item h2 {
+  margin: 0;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+  width: 150px;
+  margin: 0px;
+}
+.foot-item a {
+  text-decoration: none;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+.foot-item a:hover {
+  text-decoration: underline;
+}
+.foot-item ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
