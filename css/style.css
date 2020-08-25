@@ -347,15 +347,46 @@ body {
 .pic-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .pic-discrip {
-  width: 88.9548%;
+  width: 63.1%;
+  /* width: 1200px */
   display: grid;
   grid-template-columns: 71% 29%;
 }
 
+.title-description h2 {
+  font-size: medium;
+  color: black;
+  border-top: 1px solid black;
+  padding-top: 17px;
+}
+.title-description a {
+  text-decoration: none;
+}
+
+.title-description a:hover {
+  text-decoration: underline;
+}
 .astronomy {
-  width: 71%;
+  /* width: 71%; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.inside-grid {
+  width: 100%;
+}
+.little-text {
+  font-size: x-small;
+  text-align: right;
+}
+.item > a > h3 {
+  margin: 0;
+}
+
+.item .little-text-left {
+  text-align: left;
+  font-size: small;
 }
