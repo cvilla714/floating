@@ -201,10 +201,6 @@ body {
   /* width: 75px; */
   /* height: 78px; */
 }
-.item a {
-  font-size: 0.875em;
-  /* color: yellow; */
-}
 
 .grid-item4 p {
   width: 100%;
@@ -366,9 +362,6 @@ body {
   text-decoration: none;
 }
 
-.title-description a:hover {
-  text-decoration: underline;
-}
 .astronomy {
   /* width: 71%; */
   display: grid;
@@ -381,12 +374,42 @@ body {
 .little-text {
   font-size: x-small;
   text-align: right;
+  color: rgb(153, 153, 153);
 }
 .item > a > h3 {
   margin: 0;
 }
 
-.item .little-text-left {
+.little-text-left {
   text-align: left;
   font-size: small;
+  color: rgb(153, 153, 153);
+}
+
+.sidebar-links {
+  padding-left: 30px;
+}
+
+.side-links h2,
+.item h3 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  color: black;
+  margin-top: 15px;
+
+  padding-botton: 15px;
+  padding-top: 15px;
+  font-weight: normal;
+}
+.side-links h2 {
+  border-top: 1px solid rgb(226, 226, 226);
+}
+.side-links a,
+.item a {
+  text-decoration: none;
+}
+.side-links h2:hover,
+.item h3:hover {
+  color: #666666;
 }
