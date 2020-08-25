@@ -280,3 +280,82 @@ body {
   font-weight: 300;
   color: #000000;
 }
+.video {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.main-pic {
+  width: 720px;
+  margin: 0 auto;
+}
+.main-pic img {
+  width: 720px;
+}
+
+.Above-Comment {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+  margin: 0px auto 1em;
+}
+.Above-Comment a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+.Above-Comment a:hover {
+  text-decoration: underline;
+}
+
+.footer-button button {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  border-radius: 3px;
+  padding: 5px 0px;
+  transition: background-color 0.6s ease 0s;
+}
+
+.footer-comments {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.media-icons-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.media-icons-bottom a {
+  margin-left: 10px;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: center;
+}
+.pic-discrip {
+  width: 88.9548%;
+  display: grid;
+  grid-template-columns: 71% 29%;
+}
+
+.astronomy {
+  width: 71%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
