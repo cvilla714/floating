@@ -117,6 +117,12 @@ body {
   width: 100%;
   margin: 0;
 }
+.Refence a {
+  color: black;
+}
+.Refence a:hover {
+  text-decoration: none;
+}
 .media {
   display: flex;
   justify-content: space-between;
@@ -182,6 +188,7 @@ body {
   /* display: flex; */
   display: grid;
   justify-content: center;
+  grid-column: 4/5;
 
   /* grid-template-columns: repeat(2,1fr); */
 
@@ -204,6 +211,10 @@ body {
   /* height: 78px; */
 }
 
+.grid-item2 {
+  grid-row: 1/1;
+  grid-column: 2/3;
+}
 .grid-item4 p {
   width: 100%;
 }
@@ -299,12 +310,11 @@ body {
   margin: 0px auto 1em;
 }
 .Above-Comment a {
-  text-decoration: none;
   color: rgb(102, 102, 102);
 }
 
 .Above-Comment a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer-button button {
@@ -342,6 +352,12 @@ body {
   margin-left: 10px;
 }
 
+.midle-link a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
 .pic-container {
   display: flex;
   justify-content: center;
@@ -416,9 +432,13 @@ body {
   color: #666666;
 }
 
-.foot-container {
+.foot-container,
+.foot-nav {
   width: 63%;
   margin: 0 auto;
+}
+.foot-container {
+  margin-bottom: 10px;
 }
 .foot-container::before {
   background-color: #fff;
@@ -517,4 +537,34 @@ body {
 }
 .small-ul a {
   font-size: 11px;
+}
+
+.inline-link {
+  color: #326891;
+}
+.inline-link:hover {
+  text-decoration: none;
+}
+
+.foot-nav-items {
+  border-top: 1px solid #ebebeb;
+  padding-top: 9px;
+  padding-bottom: 25px;
+}
+
+.foot-nav-items ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.foot-nav-items a {
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 10px;
+  text-decoration: none;
+}
+.foot-nav-items a:hover {
+  text-decoration: underline;
 }
