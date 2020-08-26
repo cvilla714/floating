@@ -7,6 +7,7 @@ body {
   padding: 0;
   height: 150vh;
 }
+/* Global Variables */
 .top-bar,
 .main-header,
 .main-image img,
@@ -24,9 +25,13 @@ body {
 .bottom-nav-bar {
   width: 100%;
 }
+
+.subcontainer,
+.pic-discrip {
+  width: 63.1%;
+}
 .top-bar {
   position: fixed;
-  /* width: 100%; */
   border-bottom: 0.25px solid #e2e2e2;
   height: 7%;
   z-index: 10;
@@ -92,7 +97,6 @@ body {
 }
 
 .main-header {
-  /* width: 100%; */
   margin-top: 5%;
 }
 .description {
@@ -102,11 +106,6 @@ body {
   font-size: 2.5rem;
   font-style: italic;
   font-weight: bold;
-}
-
-.picture-container,
-.main-image img {
-  /* width: 100%; */
 }
 
 .main-image {
@@ -127,7 +126,6 @@ body {
   margin: 21px auto;
 }
 .Refence {
-  /* width: 100%; */
   margin: 0;
 }
 .Refence a {
@@ -143,7 +141,6 @@ body {
 .round {
   border: 1px #eee solid;
   border-radius: 100%;
-  /* display: inline-block; */
   height: 15px;
   vertical-align: middle;
   width: 15px;
@@ -174,12 +171,10 @@ body {
 }
 
 .containers {
-  /* width: 100%; */
   display: flex;
   justify-content: center;
 }
 .subcontainer {
-  width: 63.1%;
   display: grid;
   grid-template-columns: 24.5% 50.5% 7.5% 17.5%;
 }
@@ -197,7 +192,6 @@ body {
 }
 
 .midle-link p {
-  /* width: 100%; */
   text-align-last: center;
 }
 .grid-item4 {
@@ -233,17 +227,11 @@ body {
   text-decoration: underline;
 }
 
-.inside-img {
-  /* width: 100%; */
-}
-
 .grid-item2 {
   grid-row: 1/1;
   grid-column: 2/3;
 }
-.grid-item4 p {
-  /* width: 100%; */
-}
+
 .choices {
   display: grid;
   grid-template-columns: repeat(150px, 1fr);
@@ -257,7 +245,6 @@ body {
 
 .takeit {
   display: flex;
-  /* width: 100%; */
   font-size: small;
 }
 
@@ -370,7 +357,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-transform: uppercase;
-  /* width: 100%; */
   border-width: 1px;
   border-style: solid;
   border-color: rgb(50, 104, 145);
@@ -386,7 +372,6 @@ body {
 }
 
 .media-icons-bottom {
-  /* width: 100%; */
   display: flex;
   justify-content: flex-end;
 }
@@ -406,7 +391,6 @@ body {
   flex-wrap: wrap;
 }
 .pic-discrip {
-  width: 63.1%;
   display: grid;
   grid-template-columns: 71% 29%;
 }
@@ -435,9 +419,6 @@ body {
   font-weight: 700;
 }
 
-.inside-grid {
-  /* width: 100%; */
-}
 .little-text {
   font-size: x-small;
   text-align: right;
@@ -623,7 +604,6 @@ body {
   position: fixed;
   left: 0;
   bottom: 0;
-  /* width: 100%; */
   background-color: white;
   color: black;
   text-align: center;
