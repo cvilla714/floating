@@ -33,7 +33,7 @@ body {
 .containers,
 .midle-link,
 .takeit,
-.middle-container,
+/* .middle-container, */
 .outside-container,
 .media-icons-bottom,
 .pic-container,
@@ -66,7 +66,7 @@ body {
 
 .subcontainer,
 .pic-discrip {
-  width: 63.1%;
+  width: 86.7%;
 }
 
 /* end of global variables */
@@ -322,7 +322,7 @@ body {
 }
 
 .icons-universe {
-  width: 49.66%;
+  width: 100%;
   /* display: grid; */
   justify-content: first start;
   align-content: flex-start;
@@ -347,9 +347,10 @@ body {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
-.outside-container {
-  /* display: flex; */
-  justify-content: center;
+.outside-container,
+.middle-container {
+  width: 70%;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
@@ -360,6 +361,10 @@ body {
   grid-gap: 10px;
 }
 
+.Inside-title h3 {
+  color: #333;
+  font-size: 22px;
+}
 .insidegrid-title {
   font-weight: bold;
 }
