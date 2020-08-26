@@ -69,6 +69,8 @@ body {
   width: 63.1%;
 }
 
+/* end of global variables */
+
 .top-bar {
   position: fixed;
   border-bottom: 0.25px solid #e2e2e2;
@@ -281,9 +283,9 @@ body {
   font-size: 14px;
 }
 
-.item {
-  /* display: grid; */
-}
+/* .item { */
+/* display: grid; */
+/* } */
 
 .item a {
   color: rgb(51, 51, 51);
