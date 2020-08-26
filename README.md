@@ -4,7 +4,7 @@
 
 Mints Signup Page Clone
 
-![screenshot](./css/pics/mainss.png/)
+![screenshot](./app_screenshot.png/)
 
 Additional description about the project and its features.
 
