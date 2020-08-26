@@ -194,7 +194,8 @@ body {
 .midle-link p {
   text-align-last: center;
 }
-.grid-item4 {
+.grid-item4,
+.sidecontent {
   display: grid;
   justify-content: center;
   grid-column: 4/5;
