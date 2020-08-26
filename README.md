@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Signup Page
+# Position and Floating
 
-Mints Signup Page Clone
+Project #3 Cloning a NY Times article
 
 ![screenshot](./app_screenshot.png/)
 
