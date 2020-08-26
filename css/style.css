@@ -130,6 +130,7 @@ body {
   width: 15px;
   background-color: #eee;
   border: 1px #eee solid;
+  color: black;
   border-radius: 100%;
   padding: 5px;
   width: 15px;
@@ -143,6 +144,7 @@ body {
 .media-icons a {
   text-decoration: none;
 }
+
 .containers {
   /* margin: 0 18.47% 2.68rem 18.47%; */
   width: 100%;
@@ -418,13 +420,34 @@ body {
   width: 63%;
   margin: 0 auto;
 }
-
+.foot-container::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+.header-right {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+.header-right a {
+  text-decoration: none;
+  color: rgb(86, 123, 149);
+}
 .foot-header,
 .foot-main {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  padding-top: 15px;
 }
 .foot-item h2 {
   margin: 0;
@@ -457,4 +480,41 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-top: 5px;
+}
+
+.foot-subscribe {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 15px;
+}
+
+.last-ul-style {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 15px;
+}
+.icon-sub {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.sub-top a {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0px;
+  text-decoration: none;
+}
+.sub-top li {
+  margin-bottom: 10px;
+}
+.small-ul a {
+  font-size: 11px;
 }
