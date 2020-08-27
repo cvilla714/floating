@@ -15,6 +15,7 @@ body {
 .d-flex {
 	display: flex;
 }
+
 .d-flex-jcfe {
 	display: flex;
 	justify-content: flex-end;
@@ -84,6 +85,10 @@ body {
 	font-weight: bold;
 }
 
+.right-button a {
+	text-decoration: none;
+}
+
 .inside-left-title a:hover {
 	text-decoration: underline;
 }
@@ -122,10 +127,6 @@ body {
 	padding-right: 20px;
 }
 
-.right-button a {
-	text-decoration: none;
-}
-
 .main-header {
 	margin-top: 5%;
 }
@@ -147,9 +148,6 @@ body {
 	width: 75%;
 	font-size: 0.93rem;
 	line-height: 1.25rem;
-}
-
-.bottom-text {
 	color: #666;
 }
 
@@ -171,7 +169,6 @@ body {
 }
 
 .round {
-	border: 1px #eee solid;
 	border-radius: 100%;
 	height: 15px;
 	vertical-align: middle;
@@ -179,10 +176,7 @@ body {
 	background-color: #eee;
 	border: 1px #eee solid;
 	color: black;
-	border-radius: 100%;
 	padding: 5px;
-	width: 15px;
-	height: 15px;
 }
 
 .round:hover {
@@ -289,7 +283,6 @@ body {
 
 .pic-constainer {
 	width: 49.66%;
-	/* display: grid; */
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 10px;
 }
@@ -320,7 +313,7 @@ body {
 	font-size: 0.891em;
 	line-height: 1.1em;
 	font-weight: 300;
-	color: #000000;
+	color: #000;
 }
 
 .video {
@@ -382,7 +375,6 @@ body {
 }
 
 .footer-comments {
-	/* display: grid; */
 	grid-template-columns: repeat(2, 1fr);
 }
 
@@ -437,10 +429,6 @@ body {
 	color: rgb(153, 153, 153);
 }
 
-.item > a > h3 {
-	margin: 0;
-}
-
 .little-text-left {
 	text-align: left;
 	font-size: small;
@@ -463,6 +451,10 @@ body {
 	font-weight: normal;
 }
 
+.item > a > h3 {
+	margin: 0;
+}
+
 .side-links h2 {
 	border-top: 1px solid rgb(226, 226, 226);
 }
@@ -474,7 +466,7 @@ body {
 
 .side-links h2:hover,
 .item h3:hover {
-	color: #666666;
+	color: #666;
 }
 
 .foot-container,
@@ -519,7 +511,6 @@ body {
 }
 
 .foot-item h2 {
-	margin: 0;
 	color: rgb(51, 51, 51);
 	font-size: 13px;
 	font-weight: 700;
@@ -574,7 +565,6 @@ body {
 }
 
 .sub-top a {
-	font-weight: bold;
 	color: rgb(0, 0, 0);
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	text-transform: capitalize;
@@ -583,7 +573,7 @@ body {
 	font-weight: 700;
 	height: 25px;
 	line-height: 15px;
-	padding-bottom: 0px;
+	padding-bottom: 0;
 	text-decoration: none;
 }
 
