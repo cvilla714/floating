@@ -228,6 +228,7 @@ body {
 	height: auto;
 	max-width: 100%;
 }
+
 .sidebar-title {
 	height: 100%;
 	grid-column: 1/-1;
@@ -291,6 +292,7 @@ body {
 	color: #333;
 	font-size: 22px;
 }
+
 .insidegrid-title {
 	font-weight: bold;
 }
@@ -299,7 +301,7 @@ body {
 	margin-bottom: 40px;
 }
 
-.separation:before {
+.separation::before {
 	width: 60px;
 	content: "";
 	display: inline-block;
