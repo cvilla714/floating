@@ -235,10 +235,6 @@ body {
   font-size: 14px;
 }
 
-.item a:hover {
-  text-decoration: underline;
-}
-
 .grid-item2 {
   grid-row: 1/1;
   grid-column: 2/3;
@@ -342,10 +338,6 @@ body {
 
 .Above-Comment a {
   color: rgb(102, 102, 102);
-}
-
-.Above-Comment a:hover {
-  text-decoration: none;
 }
 
 .footer-button button {
@@ -458,11 +450,6 @@ body {
   text-decoration: none;
 }
 
-.side-links h2:hover,
-.item h3:hover {
-  color: #666;
-}
-
 .foot-container,
 .foot-nav {
   width: 79%;
@@ -527,10 +514,6 @@ body {
   height: 23px;
   line-height: 23px;
   margin-bottom: 10px;
-}
-
-.foot-item a:hover {
-  text-decoration: underline;
 }
 
 .foot-item ul {
@@ -637,4 +620,21 @@ body {
 
 .Refence a:hover {
   text-decoration: none;
+}
+
+.item a:hover {
+  text-decoration: underline;
+}
+
+.Above-Comment a:hover {
+  text-decoration: none;
+}
+
+.side-links h2:hover,
+.item h3:hover {
+  color: #666;
+}
+
+.foot-item a:hover {
+  text-decoration: underline;
 }
