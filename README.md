@@ -1,76 +1,31 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Position and Floating
 
-> One paragraph statement about the project.
+Project #3 Cloning a NY Times article
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.png/)
 
-Additional description about the project and its features.
+This project is about using Positioning and Floating
+cloning an article of the New York Times.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://cvilla714.github.io/floating/)
 
+👤 **kc**
 
-## Getting Started
+- Github: [@cvilla714](https://github.com/cvilla714)
+- Twitter: [@kckeyti](https://twitter.com/kckeyti)
+- Linkedin: [cosmel-villalobos](https://www.linkedin.com/in/cosmel-villalobos-1900531aa/)
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+👤 **abmasadullah**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- Github: [@abmasadullah](https://github.com/abmasadullah)
+- Twitter: [@abmasadullah](https://twitter.com/abmasadullah)
+- Linkedin: [abmasadullah](https://www.linkedin.com/in/abmasadullah/)
