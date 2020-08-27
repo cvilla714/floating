@@ -8,24 +8,6 @@ body {
 	height: 150vh;
 }
 
-/* Global Variables */
-/* .top-bar, */
-/* .main-header, */
-/* .main-image img, */
-/* .picture-container, */
-/* .Refence, */
-/* .containers, */
-/* .midle-link p, */
-/* .grid-item4 p, */
-/* .choices img, */
-/* .takeit, */
-/* .footer-button button, */
-/* .media-icons-bottom, */
-/* .inside-grid, */
-/* .bottom-nav-bar {
-	width: 100%;
-} */
-
 .w-100 {
 	width: 100%;
 }
@@ -77,50 +59,10 @@ body {
 	justify-items: flex-end;
 }
 
-/* .left-title, */
-/* .right-button, */
-/* .media, */
-/* .media-icons, */
-/* .containers, */
-/* .midle-link, */
-/* .takeit, */
-/* .middle-container, */
-/* .outside-container, */
-/* .media-icons-bottom, */
-/* .pic-container, */
-/* .foot-header, */
-/* .foot-main, */
-/* .foot-nav-items ul { */
-/* display: flex;
-} */
-
-/* .grid-container, */
-/* .subcontainer, */
-/* .grid-item4, */
-/* .sidecontent, */
-/* .grid-item4 aside, */
-/* .side-container, */
-/* .sidebar-title, */
-/* .item, */
-/* .choices, */
-/* .icons-universe, */
-/* .pic-constainer, */
-/* .footer-comments, */
-/* .pic-discrip, */
-/* .astronomy, */
-/* .bottom-nav-bar, */
-.bottom-item-3,
-/* .bottom-ri.footer-commentsght-item-1, */
-.bottom-right-item-2 {
-	display: grid;
-}
-
 .subcontainer,
 .pic-discrip {
 	width: 78.99%;
 }
-
-/* end of global variables */
 
 .top-bar {
 	position: fixed;
@@ -129,10 +71,6 @@ body {
 	z-index: 10;
 	background-color: white;
 }
-
-/* .left-title { */
-/* display: flex; */
-/* } */
 
 .space {
 	margin-right: 15px;
@@ -160,7 +98,6 @@ body {
 }
 
 .grid-container {
-	/* display: grid; */
 	grid-template-columns: 25% 50% 25%;
 	width: 84.3451%;
 	align-items: center;
@@ -182,8 +119,6 @@ body {
 }
 
 .right-button {
-	/* display: flex; */
-	/* justify-content: flex-end; */
 	padding-right: 20px;
 }
 
@@ -235,11 +170,6 @@ body {
 	text-decoration: none;
 }
 
-/* .media {
-	display: flex; 
-	 justify-content: space-between;
-} */
-
 .round {
 	border: 1px #eee solid;
 	border-radius: 100%;
@@ -266,23 +196,13 @@ body {
 
 .media-icons {
 	width: 60%;
-	/* float: right; */
-	/* display: flex; */
-	/* justify-content: flex-end; */
-	/* float: right; */
 }
 
 .media-icons a {
 	text-decoration: none;
 }
 
-/* .containers {
-	display: flex;
-	 justify-content: center;
-} */
-
 .subcontainer {
-	/* display: grid; */
 	grid-template-columns: 24.5% 50.5% 7.5% 17.5%;
 }
 
@@ -293,8 +213,6 @@ body {
 }
 
 .midle-link {
-	/* display: flex; */
-	/* justify-content: center; */
 	flex-wrap: wrap;
 }
 
@@ -304,19 +222,11 @@ body {
 
 .grid-item4,
 .sidecontent {
-	/* display: grid; */
-	/* justify-content: center; */
 	grid-column: 4/5;
 }
 
-/* .grid-item4 aside {
-	 display: grid; 
-	 align-content: center; 
-} */
 .side-container {
-	/* display: grid; */
 	grid-template-columns: repeat(2, 1fr);
-	/* align-content: baseline; */
 	grid-gap: 5px;
 }
 
@@ -326,20 +236,13 @@ body {
 }
 .sidebar-title {
 	height: 100%;
-	/* display: grid; */
 	grid-column: 1/-1;
-	/* display: flex; */
-	/* align-items: flex-end; */
 }
 
 .sidebar-title h2 {
 	margin-bottom: 0;
 	font-size: 14px;
 }
-
-/* .item { */
-/* display: grid; */
-/* } */
 
 .item a {
 	color: rgb(51, 51, 51);
@@ -354,34 +257,9 @@ body {
 	grid-column: 2/3;
 }
 
-/* .choices {
-	display: grid;
-	grid-template-columns: repeat(150px, 1fr);
-	grid-gap: 5px;
-	margin: 5px 7px 10px 5px;
-} */
-
-/* .choices img {
-	width: 100%;
-} */
-
-/* .takeit {
-	display: flex;
-	font-size: small;
-} */
-
 .middle-container {
-	/* display: flex; */
 	justify-content: center;
 }
-
-/*.icons-universe {
-	/* width: 100%; */
-/* display: grid; */
-/* width: 99%;
-	justify-content: first start;
-	align-content: flex-start; 
-}*/
 
 .icons-universe > p {
 	margin: 0;
@@ -508,11 +386,6 @@ body {
 	grid-template-columns: repeat(2, 1fr);
 }
 
-/* .media-icons-bottom {
-	 display: flex; 
-	 justify-content: flex-end; 
-} */
-
 .media-icons-bottom a {
 	margin-left: 10px;
 }
@@ -525,13 +398,10 @@ body {
 }
 
 .pic-container {
-	/* display: flex; */
-	/* justify-content: center; */
 	flex-wrap: wrap;
 }
 
 .pic-discrip {
-	/* display: grid; */
 	grid-template-columns: 71% 29%;
 }
 
@@ -547,7 +417,6 @@ body {
 }
 
 .astronomy {
-	/* display: grid; */
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 15px;
 }
@@ -644,8 +513,6 @@ body {
 
 .foot-header,
 .foot-main {
-	/* display: flex; */
-	/* justify-content: space-between; */
 	margin: 0;
 	padding: 0;
 	padding-top: 15px;
@@ -743,8 +610,6 @@ body {
 }
 
 .foot-nav-items ul {
-	/* display: flex; */
-	/* justify-content: space-between; */
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -762,7 +627,6 @@ body {
 }
 
 .bottom-nav-bar {
-	/* display: grid; */
 	grid-template-columns: 25% 50% 25%;
 	position: fixed;
 	left: 0;
@@ -780,17 +644,5 @@ body {
 
 .bottom-item-3 {
 	grid-column: 3/4;
-	/* display: grid; */
 	grid-template-columns: 50% 50%;
-	/* justify-content: space-between; */
 }
-
-/* .bottom-right-item-1 {
-	 display: grid; 
-	justify-items: flex-end;
-} */
-
-/* .bottom-right-item-2 {
-	display: grid;
-	align-content: center;
-} */
