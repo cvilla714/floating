@@ -93,8 +93,12 @@ body {
   color: black;
 }
 
-.inside-left-title a:hover {
-  text-decoration: underline;
+.media-icons a {
+  text-decoration: none;
+}
+
+.item a {
+  color: rgb(51, 51, 51);
 }
 
 .main-title {
@@ -192,10 +196,6 @@ body {
   width: 60%;
 }
 
-.media-icons a {
-  text-decoration: none;
-}
-
 .subcontainer {
   grid-template-columns: 24.5% 50.5% 7.5% 17.5%;
 }
@@ -237,10 +237,6 @@ body {
 .sidebar-title h2 {
   margin-bottom: 0;
   font-size: 14px;
-}
-
-.item a {
-  color: rgb(51, 51, 51);
 }
 
 .item a:hover {
@@ -637,4 +633,8 @@ body {
 .bottom-item-3 {
   grid-column: 3/4;
   grid-template-columns: 50% 50%;
+}
+
+.inside-left-title a:hover {
+  text-decoration: underline;
 }
