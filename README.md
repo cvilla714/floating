@@ -18,11 +18,11 @@ cloning an article of the New York Times.
 
 [Live Demo Link](https://cvilla714.github.io/floating/)
 
-👤 **kc**
+👤 **Cosmel Villalobos**
 
 - Github: [@cvilla714](https://github.com/cvilla714)
 - Twitter: [@kckeyti](https://twitter.com/kckeyti)
-- Linkedin: [cosmel-villalobos](https://www.linkedin.com/in/cosmel-villalobos-1900531aa/)
+- LinkedIn: [Cosmel Villalobos](https://www.linkedin.com/in/cosvilla/)
 
 👤 **abmasadullah**
 
